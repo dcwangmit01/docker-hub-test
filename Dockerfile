@@ -1,5 +1,7 @@
 FROM alpine:3.8
 
+RUN echo "hello world" > /asdf.txt
+
 RUN echo "Install os apps" && \
     apk add --no-cache curl
 
